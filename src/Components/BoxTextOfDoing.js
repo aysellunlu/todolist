@@ -8,6 +8,8 @@ const BoxTextOfDoing = styled.text`
   padding-bottom: 20px;
   border: 1px solid orange;
   border-radius: 5px;
+  display: block;
+  margin-bottom: 10px;
 
 `;
 
