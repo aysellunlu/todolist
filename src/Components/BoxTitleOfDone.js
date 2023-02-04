@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const BoxTitle = styled.h5`
+const BoxTitleOfDone = styled.h5`
   font-weight: 700;
   font-size: 20px;
   border-bottom: 2px solid;
@@ -8,6 +8,8 @@ const BoxTitle = styled.h5`
   border-radius: 5px;
   padding: 20px;
   margin-top: 10px;
+  background-color: green;
+  color: white;
 `;
 
-export default BoxTitle;
+export default BoxTitleOfDone;
