@@ -6,24 +6,36 @@ import BoxTitle from "./Components/BoxTitle";
 import DoneBox from "./Components/DoneBox";
 import TodoBox from "./Components/TodoBox";
 import ContainerOfBoxes from "./Components/ContainerOfBoxes";
-import BoxText from "./Components/BoxText";
+import BoxTextofTodo from "./Components/BoxTextOfTodo";
+import AddTaskButton from "./Components/AddTaskButton";
+import InputText from "./Components/InputText";
+import BoxTitleOfToDo from "./Components/BoxTitleOfToDo";
+import BoxTitleOfDoing from "./Components/BoxTitleOfDoing";
+import BoxTitleOfDone from "./Components/BoxTitleOfDone";
+import BoxTextOfDoing from "./Components/BoxTextOfDoing";
+import BoxTextOfDone from "./Components/BoxTextOfDone";
+import BoxTextOfTodo from "./Components/BoxTextOfTodo";
 
 function App() {
   return (
     <Container>
-      <MainTitle>TO DO LIST</MainTitle>
+      <MainTitle>TO DO LIST MANAGEMENT SYSTEM</MainTitle>
+      <ContainerOfBoxes>
+        <InputText placeholder="Add your task !" />
+        <AddTaskButton>Add Task +</AddTaskButton>
+      </ContainerOfBoxes>
       <ContainerOfBoxes>
         <TodoBox>
-          <BoxTitle>TO DO</BoxTitle>
-          <BoxText>Aysel lorem ipsum falan filan görevi</BoxText>
+          <BoxTitleOfToDo>To Do</BoxTitleOfToDo>
+          <BoxTextOfTodo>Aysel lorem ipsum falan filan görevi</BoxTextOfTodo>
         </TodoBox>
         <DoingBox>
-          <BoxTitle>DOING</BoxTitle>
-          <BoxText>Aysel lorem ipsum falan filan görevi</BoxText>
+          <BoxTitleOfDoing>In Progress</BoxTitleOfDoing>
+          <BoxTextOfDoing>Aysel lorem ipsum falan filan görevi</BoxTextOfDoing>
         </DoingBox>
         <DoneBox>
-          <BoxTitle>DONE</BoxTitle>
-          <BoxText>Aysel lorem ipsum falan filan görevi</BoxText>
+          <BoxTitleOfDone>Done</BoxTitleOfDone>
+          <BoxTextOfDone>Aysel lorem ipsum falan filan görevi</BoxTextOfDone>
         </DoneBox>
       </ContainerOfBoxes>
     </Container>
