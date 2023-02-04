@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "titleName" : "To Do List",
+        "taskName" : [
+            "Read a book for 30 minutes",
+            "Work for your React Project"
+        ]
+    },
+    {
+        "id": 1,
+        "titleName" : "In Progress",
+        "taskName" : [
+            "Work a English Grammer"
+        ]
+    },
+    {
+        "id": 2,
+        "titleName" : "Done",
+        "taskName" : [
+            "Exercise for 15 minutes",
+            "Work for a Figma Project",
+            "Shopping"
+        ]
+    }
+]

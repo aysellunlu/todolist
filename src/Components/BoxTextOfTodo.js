@@ -8,6 +8,8 @@ const BoxTextOfTodo = styled.text`
   padding-bottom: 20px;
   border: 1px solid #FF4848;
   border-radius: 5px;
+  display: block;
+  margin-bottom: 10px;
 `;
 
 export default BoxTextOfTodo;
