@@ -7,7 +7,7 @@ const AddTaskButton = styled.button`
   border: 2px solid #00a3ff;
   border-radius: 5px;
   color: white;
-  padding: 20px;
+  padding: 10px;
   margin-left: 20px;
 `;
 

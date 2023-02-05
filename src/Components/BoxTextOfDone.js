@@ -4,8 +4,7 @@ const BoxTextOfDone = styled.text`
    font-weight: 500;
   font-size: 14px;
   color: black;
-  padding: 20px;
-  padding-bottom: 20px;
+  padding: 15px;
   border: 1px solid green;
   border-radius: 5px;
   display: block;
